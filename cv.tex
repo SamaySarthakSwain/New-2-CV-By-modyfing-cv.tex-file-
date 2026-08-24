@@ -2,14 +2,13 @@
 %	The MIT License (MIT)
 %
 
-
 %	Permission is hereby granted, free of charge, to any person obtaining a copy
 %	of this software and associated documentation files (the "Software"), to deal
 %	in the Software without restriction, including without limitation the rights
 %	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 %	copies of the Software, and to permit persons to whom the Software is
 %	furnished to do so, subject to the following conditions:
-%	
+%
 %	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 %	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 %	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -17,7 +16,7 @@
 %	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 %	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 %	THE SOFTWARE.
-%	
+%
 %
 %-----------------------------------------------------------------------------------------------------------------------------------------------%
 
@@ -48,7 +47,7 @@
 %	PACKAGES
 %----------------------------------------------------------------------------------------
 \usepackage{url}
-\usepackage{parskip} 	
+\usepackage{parskip}
 
 %other packages for formatting
 \RequirePackage{color}
@@ -63,7 +62,7 @@
 \usepackage{enumitem}
 
 % centered version of 'X' col. type
-\newcolumntype{C}{>{\centering\arraybackslash}X} 
+\newcolumntype{C}{>{\centering\arraybackslash}X}
 
 %to prevent spillover of tabular into next pages
 \usepackage{supertabular}
@@ -72,12 +71,12 @@
 \setlength{\fullcollw}{0.47\textwidth}
 
 %custom \section
-\usepackage{titlesec}				
+\usepackage{titlesec}
 \usepackage{multicol}
 \usepackage{multirow}
 
-%CV Sections inspired by: 
-%http://stefano.italians.nl/archives/26
+%CV Sections inspired by:
+%[http://stefano.italians.nl/archives/26](http://stefano.italians.nl/archives/26)
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
 \titlespacing{\section}{0pt}{10pt}{10pt}
 
@@ -97,31 +96,29 @@
 %debug page outer frames
 %\usepackage{showframe}
 
-
 % job listing environments
 \newenvironment{jobshort}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    }
-    {
-    }
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill &  #2 \\[3.75pt]
+\end{tabularx}
+}
+{
+}
 
 \newenvironment{joblong}[2]
-    {
-    \begin{tabularx}{\linewidth}{@{}l X r@{}}
-    \textbf{#1} & \hfill &  #2 \\[3.75pt]
-    \end{tabularx}
-    \begin{minipage}[t]{\linewidth}
-    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
-    }
-    {
-    \end{itemize}
-    \end{minipage}    
-    }
+{
+\begin{tabularx}{\linewidth}{@{}l X r@{}}
+\textbf{#1} & \hfill &  #2 \\[3.75pt]
+\end{tabularx}
+\begin{minipage}[t]{\linewidth}
+\begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt,label=--]
+}
+{
+\end{itemize}
+\end{minipage}
 
-
+}
 
 %----------------------------------------------------------------------------------------
 %	BEGIN DOCUMENT
@@ -129,7 +126,7 @@
 \begin{document}
 
 % non-numbered pages
-\pagestyle{empty} 
+\pagestyle{empty}
 
 %----------------------------------------------------------------------------------------
 %	TITLE
@@ -137,9 +134,9 @@
 \begin{tabularx}{\linewidth}{@{} C @{}}
 \Huge{SAMAY SARTHAK SWAIN} \\[7.5pt]
 
-\href{https://github.com/SamaySarthakSwain}{\raisebox{-0.05\height}\faGithub\ SamaySarthakSwain} \ $|$ \ 
-\href{https://www.linkedin.com/in/samay-sarthak-swain-b9a277330}{\raisebox{-0.05\height}\faLinkedin\ Samay Sarthak Swain} \ $|$ \ 
-\href{mailto:samaysarthakswain@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ samaysarthakswain@gmail.com}     \ $|$ \ 
+\href{[https://github.com/SamaySarthakSwain}{\raisebox{-0.05\height}\faGithub\\](https://github.com/SamaySarthakSwain%7D%7B%5Craisebox%7B-0.05%5Cheight%7D%5CfaGithub%5C) SamaySarthakSwain} \ $|$ \\
+\href{[https://www.linkedin.com/in/samay-sarthak-swain-b9a277330}{\raisebox{-0.05\height}\faLinkedin\\](https://www.linkedin.com/in/samay-sarthak-swain-b9a277330%7D%7B%5Craisebox%7B-0.05%5Cheight%7D%5CfaLinkedin%5C) Samay Sarthak Swain} \ $|$ \\
+\href{mailto:[samaysarthakswain@gmail.com](mailto\:samaysarthakswain@gmail.com)}{\raisebox{-0.05\height}\faEnvelope \ [samaysarthakswain@gmail.com](mailto\:samaysarthakswain@gmail.com)}     \ $|$ \\
 \href{tel:+918327780375}{\raisebox{-0.05\height}\faMobile \ +91 8327780375} \\
 
 \end{tabularx}
@@ -157,7 +154,7 @@ Dynamic Full Stack Developer specializing in AI-integrated web applications and 
 
 \section{Work Experience}
 
-\begin{jobshort}{UI/UX \& Graphic Designer -- MMG Graphics}{Oct 2023 - Jan 2024}
+\begin{jobshort}{UI/UX & Graphic Designer -- MMG Graphics}{Oct 2023 - Jan 2024}
 Handled brand identity and digital interface designs.
 \end{jobshort}
 
@@ -172,48 +169,57 @@ Handled brand identity and digital interface designs.
 \section{Projects}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Smart Crowd \& Traffic Management System (AI + IoT Platform)} & \hfill Jan 2026 - Present \\[3.75pt]
+\textbf{Smart Crowd & Traffic Management System (AI + IoT Platform)} & \hfill Jan 2026 - Present \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
+
 - Developed AI-based system for real-time crowd and traffic monitoring \newline
 - Integrated multi-camera support across CCTV, IP cameras, and edge devices \newline
 - Implemented computer vision for vehicle detection and crowd density analysis \newline
-- Enabled intelligent traffic control with congestion prediction
-}  \\
-\end{tabularx}
+- Enabled intelligent traffic control with congestion prediction }  \ \end{tabularx}
 
 \vspace{5pt}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{Lets Explore -- AI Tourism Platform} & \hfill May 2025 - Present \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
+
 - Built AR/VR-based monument exploration using React.js and Three.js with 3D models \newline
 - Integrated Web Speech API for voice-based navigation \newline
 - Developed AI travel assistant using LLMs (Gemini/OpenAI) \newline
-- Implemented Emergency SOS using Google Maps API
-}  \\
-\end{tabularx}
+- Implemented Emergency SOS using Google Maps API }  \ \end{tabularx}
 
 \vspace{5pt}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
 \textbf{NeuroGuard -- AI Healthcare Web Platform} & \hfill Feb 2025 - Present \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
+
 - Developed full-stack healthcare monitor using Node.js, Express, FastAPI \newline
 - Built AI-based real-time health monitoring system \newline
-- Designed user-friendly UI using Tailwind CSS
-}  \\
-\end{tabularx}
+- Designed user-friendly UI using Tailwind CSS }  \ \end{tabularx}
+
 
 \vspace{5pt}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{V2V Communication \& Vehicle Black Box System} & \hfill Oct 2025 \\[3.75pt]
+\textbf{Ear-to-Heart -- AI-Based Heart Disease Prediction System} & \hfill 2026 \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
+
+- Developed a wearable, non-invasive system for early cardiovascular risk prediction using ear-based physiological signals \newline
+- Integrated ECG and PPG sensing with supporting temperature and motion measurements \newline
+- Extracted heart rate, HRV, pulse, and ECG/PPG waveform features for machine-learning prediction \newline
+- Evaluated classification approaches including Logistic Regression, SVM, Random Forest, and XGBoost
+} \ \end{tabularx}
+
+\vspace{5pt}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{V2V Communication & Vehicle Black Box System} & \hfill Oct 2025 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+
 - Designed V2V communication system using C++ and MQTT \newline
 - Built hardware system using Arduino/ESP32 \newline
-- Enabled real-time accident data logging for emergency response
-}  \\
-\end{tabularx}
+- Enabled real-time accident data logging for emergency response }  \ \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EDUCATION
@@ -224,9 +230,9 @@ Handled brand identity and digital interface designs.
 
 2024 - 2028 & B.Tech in Computer Science (AI/ML) at \textbf{NIST University} \hfill Overall CGPA : 8.8\\
 
-2022 - 2024 & Class 12th -- KC Public School \hfill (80\%) \\
+2022 - 2024 & Class 12th -- KC Public School \hfill (80%) \\
 
-2020 - 2022 & Class 10th -- KC Public School \hfill (93\%) \\
+2020 - 2022 & Class 10th -- KC Public School \hfill (93%) \\
 
 \end{tabularx}
 
@@ -237,13 +243,13 @@ Handled brand identity and digital interface designs.
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
 
-Frontend \& Design & React.js, Three.js, JavaScript, HTML, CSS, Tailwind CSS, UI/UX \\
+Frontend & Design & React.js, Three.js, JavaScript, HTML, CSS, Tailwind CSS, UI/UX \\
 
-Backend \& Languages & TypeScript, Node.js, FastAPI, Python, Java, C/C++ \\  
+Backend & Languages & TypeScript, Node.js, FastAPI, Python, Java, C/C++ \\
 
-Database & MySQL, MongoDB \\  
+Database & MySQL, MongoDB \\
 
-Tools \& Infra & Git, GitHub, Docker, Netlify, Vercel, REST APIs \\  
+Tools & Infra & Git, GitHub, Docker, Netlify, Vercel, REST APIs \\
 
 \end{tabularx}
 
@@ -258,7 +264,7 @@ Tools \& Infra & Git, GitHub, Docker, Netlify, Vercel, REST APIs \\
 \item Odisha AI Symposium -- 1st Runner-up
 \item Startup Odisha Campus Hackfest -- Finalist
 \item Techspire (NIT Bhubaneswar) -- Finalist
-\item Git \& GitHub Workshop -- 2nd Runner-up
+\item Git & GitHub Workshop -- 2nd Runner-up
 \end{itemize}
 
 \vfill
@@ -267,4 +273,3 @@ Tools \& Infra & Git, GitHub, Docker, Netlify, Vercel, REST APIs \\
 \end{center}
 
 \end{document}
-
