@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.14)  25 AUG 2026 22:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.14)  25 AUG 2026 23:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -736,37 +736,22 @@ Package hyperref Info: Link coloring ON on input line 126.
 {C:/Users/Lenovo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/New folde
 r (2)/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{D:/New folder (2)/fonts/enc/
 dvips/fontawesome5/fa5free1.enc}{D:/New folder (2)/fonts/enc/dvips/fontawesome5
-/fa5free2.enc}] [2] [3] (cv.aux)
+/fa5free2.enc}] [2] (cv.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package rerunfilecheck Warning: File `cv.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  4B92A4CC11FAB6F897DB4CB2F348CE34;546.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                cv
-(biblatex)                and rerun LaTeX afterwards.
-
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: 4B92A4CC11FAB6F897DB4CB2F348CE34;546.
 Package logreq Info: Writing requests to 'cv.run.xml'.
 \openout1 = `cv.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20779 strings out of 467691
- 374453 string characters out of 5427937
- 1236979 words of memory out of 5000000
- 49629 multiletter control sequences out of 15000+600000
+ 20785 strings out of 467691
+ 374515 string characters out of 5427937
+ 1238013 words of memory out of 5000000
+ 49636 multiletter control sequences out of 15000+600000
  633283 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  63i,9n,84p,1197b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -778,9 +763,9 @@ Regular.pfb><D:/New folder (2)/fonts/type1/public/fontawesome5/FontAwesome5Free
 /type1/public/amsfonts/cm/cmr12.pfb><D:/New folder (2)/fonts/type1/public/amsfo
 nts/cm/cmr17.pfb><D:/New folder (2)/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 D:/New folder (2)/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv.pdf (3 pages, 140486 bytes).
+Output written on cv.pdf (2 pages, 141769 bytes).
 PDF statistics:
- 86 PDF objects out of 1000 (max. 8388607)
- 10 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 102 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
